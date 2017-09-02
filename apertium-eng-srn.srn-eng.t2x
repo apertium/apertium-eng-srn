@@ -9,6 +9,10 @@
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
     </def-cat>
+    <def-cat n="SAdv">
+      <cat-item tags="SAdv"/>
+      <cat-item tags="SAdv.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -68,13 +72,57 @@
                     <lit-tag v="sg"/>
                 </let>
               </when>
+            <otherwise>
+                              <let>
+                    <var n="verb_person"/>
+                    <lit-tag v=""/>
+                </let>
+                    <let>
+                    <var n="verb_number"/>
+                    <lit-tag v=""/>
+                </let>
+              </otherwise>
         </choose>
       </def-macro>
 
 
   </section-def-macros>
 
-  <section-rules>
+        <section-rules>
+    <rule comment="REGLA: SN ADV SV">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SAdv"/>
+
+        <pattern-item n="SV"/>
+      </pattern>
+      <action>
+          <call-macro n="verb_agreement">
+            <with-param pos="1"/>
+            <with-param pos="3"/>
+          </call-macro>
+        <out>
+      
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+         <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <var n="verb_person"/>
+            <var n="verb_number"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+            <b/>
+            <chunk>
+            <clip pos="2" part="whole"/>
+            </chunk>
+        </out>
+      </action>
+    </rule>
+    
+
     <rule comment="REGLA: SN SV">
       <pattern>
         <pattern-item n="SN"/>
@@ -85,7 +133,31 @@
             <with-param pos="1"/>
             <with-param pos="2"/>
           </call-macro>
-        <out>
+        <choose>
+          <when>
+                <test>
+                    <equal>
+                        <var n="verb_person"/>
+                        <lit-tag v="p3"/>
+                    </equal>
+                          
+              </test>
+<out>
+                  <chunk>
+                    <clip pos="1" part="whole"/>
+                  </chunk>
+                    <b/>
+                  <chunk>
+                    <clip pos="2" part="lem"/>
+                    <clip pos="2" part="tags"/>
+                    <var n="verb_person"/>
+                    <var n="verb_number"/>
+                    <clip pos="2" part="chcontent"/>
+                  </chunk>
+                </out>
+            </when>
+        <otherwise>
+                    <out>
           <chunk>
             <clip pos="1" part="whole"/>
           </chunk>
@@ -93,13 +165,17 @@
           <chunk>
             <clip pos="2" part="lem"/>
             <clip pos="2" part="tags"/>
-            <var n="verb_person"/>
-            <var n="verb_number"/>
+
             <clip pos="2" part="chcontent"/>
           </chunk>
         </out>
+        
+            </otherwise>
+          </choose>
+          
       </action>
     </rule>
+
       
     <rule comment="REGLA: SN">
       <pattern>

@@ -29,11 +29,18 @@
     <sdef n="mf"    c="gender tbd"/>
     <sdef n="m"    c="masculine"/>
     <sdef n="f"    c="feminine"/>
-
+    <sdef n="pos"    c="possessive"/>
+    <sdef n="itg"    c="interrogative"/>
     <sdef n="sp"    c="sing/plural"/>
     <sdef n="subj"    c="subject"/>
     <sdef n="obj"    c="object"/>
     <sdef n="vbmod"    c="vb. mod"/>
+    <sdef n="cnjsub"    c="sub cnj"/>
+    <sdef n="ref"    c="reflexive"/>
+    <sdef n="ind"    c="Indefinite"/>
+    <sdef n="past"    c="Past"/>
+    <sdef n="sint"    c="Sint"/>
+    <sdef n="nt"    c="nt"/>
 
   </sdefs>
 
@@ -55,26 +62,37 @@
       <e><p><l>eat<s n="vblex"/></l><r>nyan<s n="vblex"/></r></p></e>
       <e><p><l>read<s n="vblex"/></l><r>leisi<s n="vblex"/></r></p></e>
       <e><p><l>be<s n="vbser"/></l><r>na<s n="vbser"/></r></p></e>
+      <e r="RL"><p><l>be<s n="vbser"/></l><r>de<s n="vbser"/></r></p></e>
 
        <e><p><l>with<s n="pr"/></l><r>nanga<s n="pr"/></r  ></p></e>
        <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="sg"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="sg"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="sg"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r></p></e>
-       <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e r="RL"><p><l>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="pl"/></r></p></e>
+       <e r="RL"><p><l>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="pl"/></r></p></e>
+       <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="sg"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
+       <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="sg"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="sg"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="pl"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="pl"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="pl"/></r></p></e>
        <e><p><l>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="pl"/></r></p></e>
+       <e><p><l>prpers<s n="det"/><s n="pos"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="det"/><s n="pos"/><s n="p1"/><s n="sg"/></r></p></e>
+       <e><p><l>prpers<s n="det"/><s n="pos"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="det"/><s n="pos"/><s n="p2"/><s n="sg"/></r></p></e>
+       <e><p><l>prpers<s n="det"/><s n="pos"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="det"/><s n="pos"/><s n="p3"/><s n="sg"/></r></p></e>
+       <e><p><l>prpers<s n="det"/><s n="pos"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="det"/><s n="pos"/><s n="p3"/><s n="sg"/></r></p></e>
 
+        <e><p><l>myself<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>misrefi<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
+
+       
       <e><p><l>of<s n="pr"/></l><r>fu<s n="pr"/></r></p></e>
 
        <e><p><l>John<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>John<s n="np"/><s n="ant"/></r></p></e>
 
        
-<e><p><l>a<s n="art"/></l><r>wan<s n="art"/></r></p></e>
+<e><p><l>a<s n="det"/><s n="ind"/><s n="sg"/></l><r>wan<s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
 <e><p><l>emphasis marker<s n="art"/></l><r>na<s n="art"/></r></p></e>
 <e><p><l>the<s n="art"/></l><r>a<s n="art"/></r></p></e>
 <e><p><l>the<s n="art"/></l><r>da<s n="art"/></r></p></e>
@@ -132,9 +150,9 @@
 <e><p><l>French Guiana<s n="n"/></l><r>Frans'sei<s n="n"/></r></p></e>
 <e><p><l>French speaker<s n="n"/></l><r>fransman<s n="n"/></r></p></e>
 <e><p><l>Friday<s n="n"/></l><r>freida<s n="n"/></r></p></e>
-<e><p><l>German (language)<s n="n"/></l><r>Doisri<s n="n"/></r></p></e>
-<e><p><l>German (language)<s n="n"/></l><r>Doisritongo<s n="n"/></r></p></e>
-<e><p><l>German (person)<s n="n"/></l><r>Doisri<s n="n"/></r></p></e>
+<e><p><l>German<s n="n"/></l><r>Doisri<s n="n"/></r></p></e>
+<e><p><l>German<s n="n"/></l><r>Doisritongo<s n="n"/></r></p></e>
+<e><p><l>German<s n="n"/></l><r>Doisri<s n="n"/></r></p></e>
 <e><p><l>Germany<s n="n"/></l><r>Doisrikondre<s n="n"/></r></p></e>
 <e><p><l>Guyana<s n="n"/></l><r>Gayana<s n="n"/></r></p></e>
 <e><p><l>Guyanese<s n="n"/></l><r>Gayanaman<s n="n"/></r></p></e>
@@ -306,7 +324,6 @@
 <e><p><l>ancestry<s n="n"/></l><r>rutu<s n="n"/></r></p></e>
 <e><p><l>anchor<s n="n"/></l><r>ankra<s n="n"/></r></p></e>
 <e><p><l>anchor<s n="vblex"/></l><r>ankra<s n="vblex"/></r></p></e>
-<e><p><l>and-green ~ warawrafru; scarlet ~<s n="n"/></l><r>Marienburg Maryanborgu<s n="n"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>nanga<s n="cnjcoo"/></r></p></e>
 <e><p><l>and<s n="cnjcoo"/></l><r>èn<s n="cnjcoo"/></r></p></e>
 <e><p><l>anew<s n="adv"/></l><r>baka<s n="adv"/></r></p></e>
@@ -317,7 +334,7 @@
 <e><p><l>ankle<s n="n"/></l><r>aifutu<s n="n"/></r></p></e>
 <e><p><l>announce<s n="vblex"/></l><r>bari boskopu<s n="vblex"/></r></p></e>
 <e><p><l>announce<s n="vblex"/></l><r>bari wroko<s n="vblex"/></r></p></e>
-<e><p><l>announce<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>announce<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
 <e><p><l>announcement<s n="n"/></l><r>boskopu<s n="n"/></r></p></e>
 <e><p><l>annoy<s n="vblex"/></l><r>ferferi<s n="vblex"/></r></p></e>
 <e><p><l>annoy<s n="vblex"/></l><r>trobi<s n="vblex"/></r></p></e>
@@ -410,7 +427,7 @@
 <e><p><l>axe<s n="n"/></l><r>beiri<s n="n"/></r></p></e>
 <e><p><l>axe<s n="n"/></l><r>dondruston<s n="n"/></r></p></e>
 <e><p><l>baby<s n="n"/></l><r>pikin<s n="n"/></r></p></e>
-<e><p><l>bacaba (palm)<s n="n"/></l><r>kumbu<s n="n"/></r></p></e>
+<e><p><l>bacaba<s n="n"/></l><r>kumbu<s n="n"/></r></p></e>
 <e><p><l>back<s n="adv"/></l><r>baka<s n="adv"/></r></p></e>
 <e><p><l>back<s n="n"/></l><r>baka<s n="n"/></r></p></e>
 <e><p><l>backache<s n="n"/></l><r>bak'ati<s n="n"/></r></p></e>
@@ -440,9 +457,9 @@
 <e><p><l>banana<s n="n"/></l><r>bakba<s n="n"/></r></p></e>
 <e><p><l>band<s n="n"/></l><r>banti<s n="n"/></r></p></e>
 <e><p><l>band<s n="n"/></l><r>pokugrupu<s n="n"/></r></p></e>
-<e><p><l>bank2 (of a river)<s n="n"/></l><r>libakanti<s n="n"/></r></p></e>
-<e><p><l>bank2 (of a river)<s n="n"/></l><r>syoro<s n="n"/></r></p></e>
-<e><p><l>bank2 (of a river)<s n="n"/></l><r>watrasei<s n="n"/></r></p></e>
+<e><p><l>bank<s n="n"/></l><r>libakanti<s n="n"/></r></p></e>
+<e><p><l>bank<s n="n"/></l><r>syoro<s n="n"/></r></p></e>
+<e><p><l>bank<s n="n"/></l><r>watrasei<s n="n"/></r></p></e>
 <e><p><l>bank<s n="n"/></l><r>bangi<s n="n"/></r></p></e>
 <e><p><l>banknote<s n="n"/></l><r>papira moni<s n="n"/></r></p></e>
 <e><p><l>baptism<s n="n"/></l><r>dopu<s n="n"/></r></p></e>
@@ -457,7 +474,7 @@
 <e><p><l>barge<s n="n"/></l><r>pondo<s n="n"/></r></p></e>
 <e><p><l>bark<s n="n"/></l><r>basi<s n="n"/></r></p></e>
 <e><p><l>bark<s n="n"/></l><r>buba<s n="n"/></r></p></e>
-<e><p><l>bark<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>bark<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
 <e><p><l>barley<s n="n"/></l><r>groto<s n="n"/></r></p></e>
 <e><p><l>barrel<s n="n"/></l><r>bari<s n="n"/></r></p></e>
 <e><p><l>barrister<s n="n"/></l><r>afkati<s n="n"/></r></p></e>
@@ -489,12 +506,12 @@
 <e><p><l>beat<s n="vblex"/></l><r>titei<s n="vblex"/></r></p></e>
 <e><p><l>beating<s n="n"/></l><r>fonfon<s n="n"/></r></p></e>
 <e><p><l>beautiful<s n="adj"/></l><r>moi<s n="adj"/></r></p></e>
-<e><p><l>because<s n="cnjcoo"/></l><r>bika<s n="cnjcoo"/></r></p></e>
-<e><p><l>because<s n="cnjcoo"/></l><r>di<s n="cnjcoo"/></r></p></e>
-<e><p><l>because<s n="cnjcoo"/></l><r>fa<s n="cnjcoo"/></r></p></e>
-<e><p><l>because<s n="cnjcoo"/></l><r>fu di<s n="cnjcoo"/></r></p></e>
-<e><p><l>because<s n="cnjcoo"/></l><r>na di<s n="cnjcoo"/></r></p></e>
-<e><p><l>because<s n="cnjcoo"/></l><r>wanti<s n="cnjcoo"/></r></p></e>
+<e><p><l>because<s n="cnjsub"/></l><r>bika<s n="cnjcoo"/></r></p></e>
+<e><p><l>because<s n="cnjsub"/></l><r>di<s n="cnjcoo"/></r></p></e>
+<e><p><l>because<s n="cnjsub"/></l><r>fa<s n="cnjsub"/></r></p></e>
+<e><p><l>because<s n="cnjsub"/></l><r>fu di<s n="cnjcoo"/></r></p></e>
+<e><p><l>because<s n="cnjsub"/></l><r>na di<s n="cnjcoo"/></r></p></e>
+<e><p><l>because<s n="cnjsub"/></l><r>wanti<s n="cnjcoo"/></r></p></e>
 <e><p><l>become<s n="vblex"/></l><r>kon<s n="vblex"/></r></p></e>
 <e><p><l>become<s n="vblex"/></l><r>tron<s n="vblex"/></r></p></e>
 <e><p><l>bed<s n="n"/></l><r>bedi<s n="n"/></r></p></e>
@@ -667,6 +684,7 @@
 <e><p><l>bow down<s n="vblex"/></l><r>saka kindi<s n="vblex"/></r></p></e>
 <e><p><l>bowl<s n="n"/></l><r>koba<s n="n"/></r></p></e>
 <e><p><l>bowl<s n="n"/></l><r>komki<s n="n"/></r></p></e>
+<e><p><l>bowl<s n="n"/></l><r>komtyi<s n="n"/></r></p></e>
 <e><p><l>box<s n="n"/></l><r>dosu<s n="n"/></r></p></e>
 <e><p><l>box<s n="n"/></l><r>faki<s n="n"/></r></p></e>
 <e><p><l>box<s n="n"/></l><r>kisi<s n="n"/></r></p></e>
@@ -716,7 +734,7 @@
 <e><p><l>brittle<s n="adj"/></l><r>karki<s n="adj"/></r></p></e>
 <e><p><l>broad<s n="adj"/></l><r>bradi<s n="adj"/></r></p></e>
 <e><p><l>broadcast<s n="vblex"/></l><r>bari boskopu<s n="vblex"/></r></p></e>
-<e><p><l>broadcast<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>broadcast<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
 <e><p><l>broadcast<s n="vblex"/></l><r>brotyas<s n="vblex"/></r></p></e>
 <e><p><l>broken<s n="adj"/></l><r>baster<s n="adj"/></r></p></e>
 <e><p><l>broken<s n="adj"/></l><r>broko<s n="adj"/></r></p></e>
@@ -806,13 +824,13 @@
 <e><p><l>calculate<s n="vblex"/></l><r>teri luku<s n="vblex"/></r></p></e>
 <e><p><l>calf (animal)<s n="n"/></l><r>pikin kaw<s n="n"/></r></p></e>
 <e><p><l>calf (of a leg)<s n="n"/></l><r>koiti<s n="n"/></r></p></e>
-<e><p><l>call<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
+<e  r="LR"><p><l>call<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
 <e><p><l>call<s n="vblex"/></l><r>kari<s n="vblex"/></r></p></e>
 <e><p><l>callus<s n="n"/></l><r>lekdoru<s n="n"/></r></p></e>
 <e><p><l>calm<s n="adj"/></l><r>tiri<s n="adj"/></r></p></e>
 <e><p><l>camisole<s n="n"/></l><r>kamsoro<s n="n"/></r></p></e>
 <e><p><l>camp<s n="n"/></l><r>kampu<s n="n"/></r></p></e>
-<e><p><l>can<s n="aux"/></l><r>kan<s n="aux"/></r></p></e>
+<e><p><l>can<s n="vbmod"/></l><r>kan<s n="vbmod"/></r></p></e>
 <e><p><l>can<s n="aux"/></l><r>man<s n="aux"/></r></p></e>
 <e><p><l>canal<s n="n"/></l><r>kanari<s n="n"/></r></p></e>
 <e><p><l>canary<s n="n"/></l><r>kanari<s n="n"/></r></p></e>
@@ -842,6 +860,7 @@
 <e><p><l>cardboard<s n="n"/></l><r>karton<s n="n"/></r></p></e>
 <e><p><l>care<s n="n"/></l><r>kras'ede<s n="n"/></r></p></e>
 <e><p><l>care<s n="n"/></l><r>sorgu<s n="n"/></r></p></e>
+<e><p><l>caretaker<s n="n"/></l><r>oppasser<s n="n"/></r></p></e>
 <e><p><l>career<s n="n"/></l><r>wroko<s n="n"/></r></p></e>
 <e><p><l>cargo<s n="n"/></l><r>lai<s n="n"/></r></p></e>
 <e><p><l>carpenter<s n="n"/></l><r>temreman<s n="n"/></r></p></e>
@@ -1037,7 +1056,7 @@
 <e><p><l>come<s n="vblex"/></l><r>kon<s n="vblex"/></r></p></e>
 <e><p><l>comfort<s n="n"/></l><r>trowstu<s n="n"/></r></p></e>
 <e><p><l>comfort<s n="vblex"/></l><r>trowstu<s n="vblex"/></r></p></e>
-<e><p><l>command<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
+<e  r="LR"><p><l>command<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
 <e><p><l>command<s n="vblex"/></l><r>komanderi<s n="vblex"/></r></p></e>
 <e><p><l>commander<s n="n"/></l><r>komandanti<s n="n"/></r></p></e>
 <e><p><l>commandment<s n="n"/></l><r>komanderi<s n="n"/></r></p></e>
@@ -1054,6 +1073,7 @@
 <e><p><l>complain<s n="vblex"/></l><r>kragi<s n="vblex"/></r></p></e>
 <e><p><l>complain<s n="vblex"/></l><r>krut'krutu<s n="vblex"/></r></p></e>
 <e><p><l>complain<s n="vblex"/></l><r>krutu<s n="vblex"/></r></p></e>
+<e><p><l>complain<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
 <e><p><l>complaining<s n="adj"/></l><r>krakeri<s n="adj"/></r></p></e>
 <e><p><l>complaint<s n="n"/></l><r>kragi<s n="n"/></r></p></e>
 <e><p><l>complete<s n="vblex"/></l><r>klari<s n="vblex"/></r></p></e>
@@ -1197,7 +1217,7 @@
 <e><p><l>cross-eyed<s n="n"/></l><r>sker'ai<s n="n"/></r></p></e>
 <e><p><l>cross<s n="n"/></l><r>kroisi<s n="n"/></r></p></e>
 <e><p><l>crotch<s n="n"/></l><r>mindrifutu<s n="n"/></r></p></e>
-<e><p><l>crow<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>crow<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
 <e><p><l>crowd<s n="vblex"/></l><r>kwinsi<s n="vblex"/></r></p></e>
 <e><p><l>crucify<s n="vblex"/></l><r>kroisi<s n="vblex"/></r></p></e>
 <e><p><l>cruel<s n="adj"/></l><r>ogri-ati<s n="adj"/></r></p></e>
@@ -1431,7 +1451,7 @@
 <e><p><l>doorway<s n="n"/></l><r>doro<s n="n"/></r></p></e>
 <e><p><l>double<s n="adj"/></l><r>dobru<s n="adj"/></r></p></e>
 <e><p><l>double<s n="vblex"/></l><r>dobru<s n="vblex"/></r></p></e>
-<e><p><l>doubt<s n="vblex"/></l><r>degedege<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>doubt<s n="vblex"/></l><r>degedege<s n="vblex"/></r></p></e>
 <e><p><l>dove<s n="n"/></l><r>doifi<s n="n"/></r></p></e>
 <e><p><l>downpour<s n="n"/></l><r>sibibusi<s n="n"/></r></p></e>
 <e><p><l>downstairs<s n="adv"/></l><r>ondrosei<s n="adv"/></r></p></e>
@@ -2020,7 +2040,7 @@
 <e><p><l>gossip<s n="vblex"/></l><r>hoigri<s n="vblex"/></r></p></e>
 <e><p><l>gossip<s n="vblex"/></l><r>konkru<s n="vblex"/></r></p></e>
 <e><p><l>gouge out<s n="vblex"/></l><r>diki puru<s n="vblex"/></r></p></e>
-<e><p><l>govern<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>govern<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
 <e><p><l>govern<s n="vblex"/></l><r>tiri<s n="vblex"/></r></p></e>
 <e><p><l>government<s n="adj"/></l><r>lanti<s n="adj"/></r></p></e>
 <e><p><l>government<s n="n"/></l><r>lanti<s n="n"/></r></p></e>
@@ -2155,8 +2175,8 @@
 <e><p><l>happy<s n="adv"/></l><r>switi<s n="adv"/></r></p></e>
 <e><p><l>harass<s n="vblex"/></l><r>ferferi<s n="vblex"/></r></p></e>
 <e><p><l>harbor<s n="n"/></l><r>lanpresi<s n="n"/></r></p></e>
-<e><p><l>hard<s n="adj"/></l><r>pepre<s n="adj"/></r></p></e>
-<e><p><l>hard<s n="adj"/></l><r>tranga<s n="adj"/></r></p></e>
+<e><p><l>hard<s n="adj"/><s n="sint"/></l><r>pepre<s n="adj"/></r></p></e>
+<e><p><l>hard<s n="adj"/><s n="sint"/></l><r>tranga<s n="adj"/></r></p></e>
 <e><p><l>harden<s n="vblex"/></l><r>tranga<s n="vblex"/></r></p></e>
 <e><p><l>harlot<s n="n"/></l><r>huru<s n="n"/></r></p></e>
 <e><p><l>harm<s n="n"/></l><r>mankeri<s n="n"/></r></p></e>
@@ -2278,7 +2298,7 @@
 <e><p><l>hug<s n="n"/></l><r>brasa<s n="n"/></r></p></e>
 <e><p><l>hug<s n="vblex"/></l><r>brasa<s n="vblex"/></r></p></e>
 <e><p><l>hum<s n="n"/></l><r>wunwun<s n="n"/></r></p></e>
-<e><p><l>human<s n="n"/></l><r>sma<s n="n"/></r></p></e>
+<e r="LR"><p><l>human<s n="n"/></l><r>sma<s n="n"/></r></p></e>
 <e><p><l>humble<s n="adj"/></l><r>sakafasi<s n="adj"/></r></p></e>
 <e><p><l>humid<s n="adj"/></l><r>benawtu<s n="adj"/></r></p></e>
 <e><p><l>humid<s n="adj"/></l><r>nat'nati<s n="adj"/></r></p></e>
@@ -2377,6 +2397,7 @@
 <e><p><l>insecticide<s n="n"/></l><r>flit<s n="n"/></r></p></e>
 <e><p><l>inside<s n="n"/></l><r>bere<s n="n"/></r></p></e>
 <e><p><l>inside<s n="n"/></l><r>in'sei<s n="n"/></r></p></e>
+<e><p><l>inside<s n="adj"/></l><r>insei<s n="adj"/></r></p></e>
 <e><p><l>inside<s n="n"/></l><r>ini<s n="n"/></r></p></e>
 <e><p><l>insolent<s n="adj"/></l><r>asranti<s n="adj"/></r></p></e>
 <e><p><l>inspector<s n="n"/></l><r>inspektoro<s n="n"/></r></p></e>
@@ -2555,7 +2576,7 @@
 <e><p><l>lazy<s n="adj"/></l><r>lesi<s n="adj"/></r></p></e>
 <e><p><l>lead1 (metal)<s n="n"/></l><r>kot'loto<s n="n"/></r></p></e>
 <e><p><l>lead1 (metal)<s n="n"/></l><r>loto<s n="n"/></r></p></e>
-<e><p><l>lead<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>lead<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
 <e><p><l>lead<s n="vblex"/></l><r>tiri<s n="vblex"/></r></p></e>
 <e><p><l>leader<s n="n"/></l><r>edeman<s n="n"/></r></p></e>
 <e><p><l>leader<s n="n"/></l><r>fes'man<s n="n"/></r></p></e>
@@ -2899,6 +2920,7 @@
 <e><p><l>moonlight<s n="n"/></l><r>munkenki<s n="n"/></r></p></e>
 <e><p><l>mop<s n="n"/></l><r>dweiri<s n="n"/></r></p></e>
 <e><p><l>mop<s n="vblex"/></l><r>dweiri<s n="vblex"/></r></p></e>
+<e><p><l>more<s n="adv"/></l><r>moro<s n="adv"/></r></p></e>
 <e><p><l>morning<s n="n"/></l><r>mamanten<s n="n"/></r></p></e>
 <e><p><l>mortar (for pounding)<s n="n"/></l><r>mata<s n="n"/></r></p></e>
 <e><p><l>mosquito<s n="n"/></l><r>maskita<s n="n"/></r></p></e>
@@ -2948,8 +2970,8 @@
 <e><p><l>music<s n="n"/></l><r>poku<s n="n"/></r></p></e>
 <e><p><l>musical piece<s n="n"/></l><r>singi<s n="n"/></r></p></e>
 <e><p><l>musician<s n="n"/></l><r>pokuman<s n="n"/></r></p></e>
-<e><p><l>must<s n="vbmod"/></l><r>mu<s n="aux"/></r></p></e>
-<e><p><l>must<s n="vbmod"/></l><r>mus<s n="aux"/></r></p></e>
+<e><p><l>must<s n="vbmod"/></l><r>mu<s n="vbmod"/></r></p></e>
+<e><p><l>must<s n="vbmod"/></l><r>mus<s n="vbmod"/></r></p></e>
 <e><p><l>must<s n="vbmod"/></l><r>musu<s n="vbmod"/></r></p></e>
 <e><p><l>mustard greens<s n="n"/></l><r>kaisoi<s n="n"/></r></p></e>
 <e><p><l>musty<s n="adj"/></l><r>buku<s n="adj"/></r></p></e>
@@ -3025,7 +3047,7 @@
 <e><p><l>ninth<s n="adj"/></l><r>di fu neigi<s n="adj"/></r></p></e>
 <e><p><l>nipple<s n="n"/></l><r>bobimofo<s n="n"/></r></p></e>
 <e><p><l>nit<s n="n"/></l><r>loso-eksi<s n="n"/></r></p></e>
-<e><p><l>no<s n="ij"/></l><r>no<s n="ij"/></r></p></e>
+<e><p><l>no<s n="adv"/></l><r>no<s n="ij"/></r></p></e>
 <e><p><l>nod<s n="vblex"/></l><r>seki ede<s n="vblex"/></r></p></e>
 <e><p><l>noise<s n="n"/></l><r>babari<s n="n"/></r></p></e>
 <e><p><l>noise<s n="n"/></l><r>dyugudyugu<s n="n"/></r></p></e>
@@ -3043,6 +3065,7 @@
 <e><p><l>notary public<s n="n"/></l><r>notarsi<s n="n"/></r></p></e>
 <e><p><l>notch<s n="n"/></l><r>tyepi<s n="n"/></r></p></e>
 <e><p><l>notch<s n="vblex"/></l><r>tyerfi<s n="vblex"/></r></p></e>
+<e><p><l>nothing<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></l><r>noti<s n="prn"/><s n="ind"/><s n="sg"/></r></p></e>
 <e><p><l>notice<s n="n"/></l><r>wortu<s n="n"/></r></p></e>
 <e><p><l>now<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
 <e><p><l>now<s n="adv"/></l><r>nownow<s n="adv"/></r></p></e>
@@ -3053,6 +3076,7 @@
 <e><p><l>nowhere<s n="adv"/></l><r>no wan presi<s n="adv"/></r></p></e>
 <e><p><l>nuisance<s n="n"/></l><r>wer'ede<s n="n"/></r></p></e>
 <e><p><l>number<s n="n"/></l><r>nomru<s n="n"/></r></p></e>
+<e><p><l>nurse<s n="n"/></l><r>zuster<s n="n"/></r></p></e>
 <e><p><l>nut (food)<s n="n"/></l><r>noto<s n="n"/></r></p></e>
 <e><p><l>nut (for a bolt)<s n="n"/></l><r>muru<s n="n"/></r></p></e>
 <e><p><l>nutmeg<s n="n"/></l><r>notmuskati<s n="n"/></r></p></e>
@@ -3097,6 +3121,7 @@
 <e><p><l>olive ridley (sea turtle)<s n="n"/></l><r>warana<s n="n"/></r></p></e>
 <e><p><l>olive<s n="n"/></l><r>oleif<s n="n"/></r></p></e>
 <e><p><l>on<s n="pr"/></l><r>na<s n="pr"/></r></p></e>
+<e><p><l>on<s n="pr"/></l><r>na<b/>tapu<s n="pr"/></r></p></e>
 <e><p><l>on<s n="pr"/></l><r>tapu<s n="pr"/></r></p></e>
 <e><p><l>one<s n="adj"/></l><r>wan<s n="adj"/></r></p></e>
 <e><p><l>one<s n="num"/></l><r>wan<s n="num"/></r></p></e>
@@ -3604,7 +3629,7 @@
 <e><p><l>region<s n="n"/></l><r>kontren<s n="n"/></r></p></e>
 <e><p><l>regret<s n="vblex"/></l><r>hati<s n="vblex"/></r></p></e>
 <e><p><l>regret<s n="vblex"/></l><r>sari<s n="vblex"/></r></p></e>
-<e><p><l>reign<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>reign<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
 <e><p><l>reject<s n="vblex"/></l><r>drai baka gi<s n="vblex"/></r></p></e>
 <e><p><l>rejoice<s n="vblex"/></l><r>nyanprei<s n="vblex"/></r></p></e>
 <e><p><l>relative<s n="n"/></l><r>berefamiri<s n="n"/></r></p></e>
@@ -3666,6 +3691,7 @@
 <e><p><l>return<s n="n"/></l><r>konbaka<s n="n"/></r></p></e>
 <e><p><l>reveal<s n="vblex"/></l><r>tyari kon na krin<s n="vblex"/></r></p></e>
 <e><p><l>revenge<s n="n"/></l><r>refrensi<s n="n"/></r></p></e>
+<e r="RL"><p><l>revenge<s n="n"/></l><r>wraak<s n="n"/></r></p></e>
 <e><p><l>revenge<s n="vblex"/></l><r>refrensi<s n="vblex"/></r></p></e>
 <e><p><l>revenge<s n="vblex"/></l><r>teki refrensi<s n="vblex"/></r></p></e>
 <e><p><l>revolve<s n="vblex"/></l><r>drai lontu<s n="vblex"/></r></p></e>
@@ -3750,7 +3776,7 @@
 <e><p><l>rubbish<s n="n"/></l><r>bongro<s n="n"/></r></p></e>
 <e><p><l>rubbish<s n="n"/></l><r>doti<s n="n"/></r></p></e>
 <e><p><l>rule<s n="n"/></l><r>tiri<s n="n"/></r></p></e>
-<e><p><l>rule<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>rule<s n="vblex"/></l><r>rigeri<s n="vblex"/></r></p></e>
 <e><p><l>rule<s n="vblex"/></l><r>tiri<s n="vblex"/></r></p></e>
 <e><p><l>ruler<s n="n"/></l><r>doitiki<s n="n"/></r></p></e>
 <e><p><l>ruler<s n="n"/></l><r>lati<s n="n"/></r></p></e>
@@ -4094,7 +4120,7 @@
 <e><p><l>slacks<s n="n"/></l><r>bruku<s n="n"/></r></p></e>
 <e><p><l>slam shut<s n="vblex"/></l><r>naki tapu<s n="vblex"/></r></p></e>
 <e><p><l>slander<s n="vblex"/></l><r>konkru<s n="vblex"/></r></p></e>
-<e><p><l>slanted<s n="adv"/></l><r>skoinsi<s n="adv"/></r></p></e>
+<e><p><l>slanted<s n="adj"/></l><r>skoinsi<s n="adj"/></r></p></e>
 <e><p><l>slap<s n="n"/></l><r>klapu<s n="n"/></r></p></e>
 <e><p><l>slap<s n="vblex"/></l><r>klapu<s n="vblex"/></r></p></e>
 <e><p><l>slap<s n="vblex"/></l><r>krawasi<s n="vblex"/></r></p></e>
@@ -4197,7 +4223,7 @@
 <e><p><l>solicit<s n="vblex"/></l><r>piki<s n="vblex"/></r></p></e>
 <e><p><l>solve<s n="vblex"/></l><r>puru<s n="vblex"/></r></p></e>
 <e><p><l>some<s n="num"/></l><r>wantu<s n="num"/></r></p></e>
-<e><p><l>something<s n="n"/></l><r>wan sani<s n="n"/></r></p></e>
+<e><p><l>something<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></l><r>wan sani<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
 <e><p><l>sometime<s n="adv"/></l><r>wan dei<s n="adv"/></r></p></e>
 <e><p><l>sometimes<s n="adv"/></l><r>son leisi<s n="adv"/></r></p></e>
 <e><p><l>somewhere<s n="adv"/></l><r>wan presi<s n="adv"/></r></p></e>
@@ -4594,15 +4620,15 @@
 <e><p><l>thank you<s n="n"/></l><r>danki<s n="n"/></r></p></e>
 <e><p><l>thank<s n="vblex"/></l><r>taki tangi<s n="vblex"/></r></p></e>
 <e><p><l>thanks<s n="n"/></l><r>tangi<s n="n"/></r></p></e>
-<e><p><l>that<s n="cnjcoo"/></l><r>dati<s n="cnjcoo"/></r></p></e>
-<e><p><l>that<s n="cnjcoo"/></l><r>fu<s n="cnjcoo"/></r></p></e>
-<e><p><l>that<s n="cnjcoo"/></l><r>taki<s n="cnjcoo"/></r></p></e>
+<e><p><l>that<s n="cnjsub"/></l><r>dati<s n="cnjcoo"/></r></p></e>
+<e><p><l>that<s n="cnjsub"/></l><r>fu<s n="cnjcoo"/></r></p></e>
+<e><p><l>that<s n="cnjsub"/></l><r>taki<s n="cnjcoo"/></r></p></e>
 <e><p><l>theater<s n="n"/></l><r>kino<s n="n"/></r></p></e>
 <e><p><l>then<s n="adv"/></l><r>nomo<s n="adv"/></r></p></e>
 <e><p><l>then<s n="cnjcoo"/></l><r>baka dati<s n="cnjcoo"/></r></p></e>
-<e><p><l>then<s n="cnjcoo"/></l><r>dan<s n="cnjcoo"/></r></p></e>
-<e><p><l>then<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
-<e><p><l>then<s n="cnjcoo"/></l><r>so<s n="cnjcoo"/></r></p></e>
+<e><p><l>then<s n="adv"/></l><r>dan<s n="cnjcoo"/></r></p></e>
+<e><p><l>then<s n="adv"/></l><r>ne<s n="cnjcoo"/></r></p></e>
+<e><p><l>then<s n="adv"/></l><r>so<s n="cnjcoo"/></r></p></e>
 <e><p><l>there<s n="adv"/></l><r>drape<s n="adv"/></r></p></e>
 <e><p><l>therefore<s n="cnjcoo"/></l><r>dat' meki<s n="cnjcoo"/></r></p></e>
 <e><p><l>therefore<s n="cnjcoo"/></l><r>dat'ede<s n="cnjcoo"/></r></p></e>
@@ -4721,7 +4747,7 @@
 <e><p><l>torn<s n="adj"/></l><r>priti<s n="adj"/></r></p></e>
 <e><p><l>tortoise<s n="n"/></l><r>sekrepatu<s n="n"/></r></p></e>
 <e><p><l>toss<s n="vblex"/></l><r>fringi<s n="vblex"/></r></p></e>
-<e><p><l>totter<s n="vblex"/></l><r>degedege<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>totter<s n="vblex"/></l><r>degedege<s n="vblex"/></r></p></e>
 <e><p><l>toucan<s n="n"/></l><r>kuyake<s n="n"/></r></p></e>
 <e><p><l>touch<s n="vblex"/></l><r>fas'fasi<s n="vblex"/></r></p></e>
 <e><p><l>touch<s n="vblex"/></l><r>fasi<s n="vblex"/></r></p></e>
@@ -4853,12 +4879,13 @@
 <e><p><l>unrighteousness<s n="n"/></l><r>kruktufasi<s n="n"/></r></p></e>
 <e><p><l>untidy<s n="adj"/></l><r>morsu<s n="adj"/></r></p></e>
 <e><p><l>untie<s n="vblex"/></l><r>lusu<s n="vblex"/></r></p></e>
-<e><p><l>until<s n="cnjcoo"/></l><r>te<s n="cnjcoo"/></r></p></e>
+<e r="LR"><p><l>until<s n="cnjcoo"/></l><r>te<s n="cnjcoo"/></r></p></e>
 <e><p><l>until<s n="pr"/></l><r>te leki<s n="pr"/></r></p></e>
 <e><p><l>until<s n="pr"/></l><r>te<s n="pr"/></r></p></e>
 <e><p><l>untrustworthy<s n="adj"/></l><r>doti<s n="adj"/></r></p></e>
 <e><p><l>untrustworthy<s n="adj"/></l><r>dyote<s n="adj"/></r></p></e>
 <e><p><l>up<s n="n"/></l><r>loktu<s n="n"/></r></p></e>
+<e><p><l>up<s n="adv"/></l><r>opo<s n="adv"/></r></p></e>
 <e><p><l>upper part<s n="adv"/></l><r>tap'sei<s n="adv"/></r></p></e>
 <e><p><l>upright<s n="adv"/></l><r>let'opu<s n="adv"/></r></p></e>
 <e><p><l>upriver<s n="n"/></l><r>tap'sei<s n="n"/></r></p></e>
@@ -4948,7 +4975,7 @@
 <e><p><l>wardrobe<s n="n"/></l><r>kros'kasi<s n="n"/></r></p></e>
 <e><p><l>warehouse<s n="n"/></l><r>maksin<s n="n"/></r></p></e>
 <e><p><l>warm<s n="adj"/></l><r>waran<s n="adj"/></r></p></e>
-<e><p><l>warn<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>warn<s n="vblex"/></l><r>bari<s n="vblex"/></r></p></e>
 <e><p><l>warn<s n="vblex"/></l><r>piri ai gi<s n="vblex"/></r></p></e>
 <e><p><l>warn<s n="vblex"/></l><r>warskow<s n="vblex"/></r></p></e>
 <e><p><l>warning<s n="n"/></l><r>warskow<s n="n"/></r></p></e>
@@ -5016,16 +5043,16 @@
 <e><p><l>wet<s n="adj"/></l><r>nati<s n="adj"/></r></p></e>
 <e><p><l>wet<s n="vblex"/></l><r>nati<s n="vblex"/></r></p></e>
 <e><p><l>what<s n="adv"/></l><r>fa<s n="adv"/></r></p></e>
-<e><p><l>what<s n="cnjcoo"/></l><r>san<s n="cnjcoo"/></r></p></e>
+<e><p><l>what<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>san<s n="prn"/><s n="itg"/></r></p></e>
 <e><p><l>wheelbarrow<s n="n"/></l><r>kroiwagi<s n="n"/></r></p></e>
 <e><p><l>when<s n="adv"/></l><r>oten<s n="adv"/></r></p></e>
-<e><p><l>when<s n="cnjcoo"/></l><r>di<s n="cnjcoo"/></r></p></e>
+<e><p><l>when<s n="adv"/><s n="itg"/></l><r>di<s n="cnjcoo"/></r></p></e>
 <e><p><l>when<s n="cnjcoo"/></l><r>oten<s n="cnjcoo"/></r></p></e>
-<e><p><l>when<s n="cnjcoo"/></l><r>te<s n="cnjcoo"/></r></p></e>
+<e><p><l>when<s n="adv"/><s n="itg"/></l><r>te<s n="cnjcoo"/></r></p></e>
 <e><p><l>whenever<s n="cnjcoo"/></l><r>iniwan ten<s n="cnjcoo"/></r></p></e>
 <e><p><l>whenever<s n="cnjcoo"/></l><r>oten<s n="cnjcoo"/></r></p></e>
 <e><p><l>whenever<s n="cnjcoo"/></l><r>solanga<s n="cnjcoo"/></r></p></e>
-<e><p><l>while<s n="cnjcoo"/></l><r>di<s n="cnjcoo"/></r></p></e>
+<e><p><l>while<s n="adv"/><s n="itg"/></l><r>di<s n="cnjcoo"/></r></p></e>
 <e><p><l>whine<s n="vblex"/></l><r>stowtu<s n="vblex"/></r></p></e>
 <e><p><l>whip<s n="n"/></l><r>krawasi<s n="n"/></r></p></e>
 <e><p><l>whip<s n="n"/></l><r>wipi<s n="n"/></r></p></e>
@@ -5150,7 +5177,7 @@
 <e><p><l>worship<s n="vblex"/></l><r>begi<s n="vblex"/></r></p></e>
 <e><p><l>worth<s n="n"/></l><r>warti<s n="n"/></r></p></e>
 <e><p><l>worthy<s n="adj"/></l><r>warti<s n="adj"/></r></p></e>
-<e><p><l>would<s n="aux"/></l><r>bo<s n="aux"/></r></p></e>
+<e><p><l>will<s n="vbmod"/><s n="past"/></l><r>bo<s n="vbmod"/></r></p></e>
 <e><p><l>wound<s n="n"/></l><r>mankeri<s n="n"/></r></p></e>
 <e><p><l>wound<s n="n"/></l><r>soro<s n="n"/></r></p></e>
 <e><p><l>wound<s n="n"/></l><r>sorosoro<s n="n"/></r></p></e>
