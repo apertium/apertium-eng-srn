@@ -15,5 +15,7 @@
 /apertium-eng-srn.srn-eng.t2x -text
 /apertium-eng-srn.srn-eng.t3x -text
 /autogen.sh -text
+/bron_misrefi.txt -text
+/bron_misrefi_translated.txt -text
 /configure.ac -text
 /modes.xml -text
