@@ -41,6 +41,8 @@
     <sdef n="past"    c="Past"/>
     <sdef n="sint"    c="Sint"/>
     <sdef n="nt"    c="nt"/>
+    <sdef n="dem"    c="demonstrative"/>
+    <sdef n="qnt"    />
 
   </sdefs>
 
@@ -88,6 +90,7 @@
 
        
       <e><p><l>of<s n="pr"/></l><r>fu<s n="pr"/></r></p></e>
+      <e><p><l>the<b/>other<s n="prn"/><s n="dem"/><s n="mf"/></l><r>a<g><b/>trawan<s n="prn"/><s n="dem"/></g></r></p></e>
 
        <e><p><l>John<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>John<s n="np"/><s n="ant"/></r></p></e>
 
@@ -212,7 +215,6 @@
 <e><p><l>abdomen<s n="n"/></l><r>bere<s n="n"/></r></p></e>
 <e><p><l>abdominal pain<s n="n"/></l><r>ber'ati<s n="n"/></r></p></e>
 <e><p><l>able<s n="aux"/></l><r>kan<s n="aux"/></r></p></e>
-<e><p><l>able<s n="aux"/></l><r>man<s n="aux"/></r></p></e>
 <e><p><l>abort (a pregnancy)<s n="vblex"/></l><r>puru bere<s n="vblex"/></r></p></e>
 <e><p><l>abound<s n="vblex"/></l><r>lai<s n="vblex"/></r></p></e>
 <e><p><l>abound<s n="vblex"/></l><r>monyo<s n="vblex"/></r></p></e>
@@ -290,6 +292,7 @@
 <e><p><l>alive<s n="adj"/></l><r>libilibi<s n="adj"/></r></p></e>
 <e><p><l>all-night activity<s n="n"/></l><r>brokodei<s n="n"/></r></p></e>
 <e><p><l>all<s n="adj"/></l><r>ala<s n="adj"/></r></p></e>
+<e><p><l>all<s n="det"/><s n="qnt"/><s n="pl"/></l><r>ala<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e><p><l>all<s n="adj"/></l><r>heri<s n="adj"/></r></p></e>
 <e><p><l>alligator<s n="n"/></l><r>kaiman<s n="n"/></r></p></e>
 <e><p><l>allow<s n="vblex"/></l><r>meki<s n="vblex"/></r></p></e>
@@ -304,8 +307,8 @@
 <e><p><l>also<s n="cnjcoo"/></l><r>sosrefi<s n="cnjcoo"/></r></p></e>
 <e><p><l>altar<s n="n"/></l><r>altari<s n="n"/></r></p></e>
 <e><p><l>although<s n="cnjcoo"/></l><r>aladi<s n="cnjcoo"/></r></p></e>
-<e><p><l>although<s n="cnjcoo"/></l><r>awinsi fa<s n="cnjcoo"/></r></p></e>
-<e><p><l>although<s n="cnjcoo"/></l><r>awinsi<s n="cnjcoo"/></r></p></e>
+<e><p><l>although<s n="cnjsub"/></l><r>awinsi fa<s n="cnjsub"/></r></p></e>
+<e><p><l>although<s n="cnjsub"/></l><r>awinsi<s n="cnjsub"/></r></p></e>
 <e><p><l>amaranth (plant)<s n="n"/></l><r>klarun<s n="n"/></r></p></e>
 <e><p><l>amaze<s n="vblex"/></l><r>ferwondru<s n="vblex"/></r></p></e>
 <e><p><l>amazing<s n="adj"/></l><r>ferwondru<s n="adj"/></r></p></e>
@@ -831,6 +834,7 @@
 <e><p><l>camisole<s n="n"/></l><r>kamsoro<s n="n"/></r></p></e>
 <e><p><l>camp<s n="n"/></l><r>kampu<s n="n"/></r></p></e>
 <e><p><l>can<s n="vbmod"/></l><r>kan<s n="vbmod"/></r></p></e>
+<e><p><l>can<s n="vbmod"/></l><r>man<s n="vbmod"/></r></p></e>
 <e><p><l>can<s n="aux"/></l><r>man<s n="aux"/></r></p></e>
 <e><p><l>canal<s n="n"/></l><r>kanari<s n="n"/></r></p></e>
 <e><p><l>canary<s n="n"/></l><r>kanari<s n="n"/></r></p></e>
@@ -990,6 +994,7 @@
 <e><p><l>clan<s n="n"/></l><r>lo<s n="n"/></r></p></e>
 <e><p><l>clap hands<s n="vblex"/></l><r>klapu ini den anu<s n="vblex"/></r></p></e>
 <e><p><l>clasp<s n="n"/></l><r>dyepsi<s n="n"/></r></p></e>
+<e><p><l>classmate<s n="n"/></l><r>skoromati<s n="n"/></r></p></e>
 <e><p><l>claw<s n="n"/></l><r>nangra<s n="n"/></r></p></e>
 <e><p><l>clay<s n="n"/></l><r>kleidoti<s n="n"/></r></p></e>
 <e><p><l>clay<s n="n"/></l><r>tokotoko<s n="n"/></r></p></e>
@@ -1941,8 +1946,8 @@
 <e><p><l>fugitive<s n="n"/></l><r>loweman<s n="n"/></r></p></e>
 <e><p><l>full-blooded<s n="adj"/></l><r>kankan<s n="adj"/></r></p></e>
 <e><p><l>full-blooded<s n="adj"/></l><r>lala<s n="adj"/></r></p></e>
-<e><p><l>full<s n="adj"/></l><r>furu<s n="adj"/></r></p></e>
-<e><p><l>full<s n="adj"/></l><r>span<s n="adj"/></r></p></e>
+<e><p><l>full<s n="adj"/><s n="sint"/></l><r>furu<s n="adj"/></r></p></e>
+<e><p><l>full<s n="adj"/><s n="sint"/></l><r>span<s n="adj"/></r></p></e>
 <e><p><l>fun<s n="adj"/></l><r>sukru<s n="adj"/></r></p></e>
 <e><p><l>fun<s n="adv"/></l><r>switi<s n="adv"/></r></p></e>
 <e><p><l>fund<s n="n"/></l><r>fonsu<s n="n"/></r></p></e>
@@ -1992,6 +1997,7 @@
 <e><p><l>gift<s n="n"/></l><r>presenti<s n="n"/></r></p></e>
 <e><p><l>gin<s n="n"/></l><r>yaneifri<s n="n"/></r></p></e>
 <e><p><l>ginger<s n="n"/></l><r>dyindya<s n="n"/></r></p></e>
+<e r="RL"><p><l>girl<s n="n"/></l><r>meisje<s n="n"/></r></p></e>
 <e><p><l>girl<s n="n"/></l><r>misi<s n="n"/></r></p></e>
 <e><p><l>girl<s n="n"/></l><r>pikin<s n="n"/></r></p></e>
 <e><p><l>girl<s n="n"/></l><r>umapikin<s n="n"/></r></p></e>
@@ -2645,7 +2651,7 @@
 <e><p><l>lighter<s n="n"/></l><r>fayadosu<s n="n"/></r></p></e>
 <e><p><l>lightning<s n="n"/></l><r>faya<s n="n"/></r></p></e>
 <e><p><l>like (appreciate or enjoy)<s n="vblex"/></l><r>lobi<s n="vblex"/></r></p></e>
-<e><p><l>like<s n="cnjcoo"/></l><r>leki<s n="cnjcoo"/></r></p></e>
+<e><p><l>like<s n="cnjsub"/></l><r>leki<s n="cnjsub"/></r></p></e>
 <e><p><l>lilac<s n="n"/></l><r>lila<s n="n"/></r></p></e>
 <e><p><l>lime (fruit)<s n="n"/></l><r>lemki<s n="n"/></r></p></e>
 <e><p><l>lime<s n="n"/></l><r>karki<s n="n"/></r></p></e>
@@ -3492,6 +3498,7 @@
 <e><p><l>proud<s n="adj"/></l><r>bigimemre<s n="adj"/></r></p></e>
 <e><p><l>proud<s n="adj"/></l><r>hei<s n="adj"/></r></p></e>
 <e><p><l>proverb<s n="n"/></l><r>odo<s n="n"/></r></p></e>
+<e><p><l>proverb<s n="n"/></l><r>gwenti de taki<s n="n"/></r></p></e>
 <e><p><l>provoke<s n="vblex"/></l><r>suku mofo<s n="vblex"/></r></p></e>
 <e><p><l>provoke<s n="vblex"/></l><r>tanteri<s n="vblex"/></r></p></e>
 <e><p><l>pry into<s n="vblex"/></l><r>bemui<s n="vblex"/></r></p></e>
@@ -4061,7 +4068,7 @@
 <e><p><l>side<s n="n"/></l><r>seibere<s n="n"/></r></p></e>
 <e><p><l>side<s n="n"/></l><r>seisei<s n="n"/></r></p></e>
 <e><p><l>sieve<s n="n"/></l><r>dorodoro<s n="n"/></r></p></e>
-<e><p><l>sift<s n="vblex"/></l><r>doro<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>sift<s n="vblex"/></l><r>doro<s n="vblex"/></r></p></e>
 <e><p><l>sigh<s n="n"/></l><r>soktu<s n="n"/></r></p></e>
 <e><p><l>sigh<s n="vblex"/></l><r>soktu<s n="vblex"/></r></p></e>
 <e><p><l>sign<s n="n"/></l><r>marki<s n="n"/></r></p></e>
@@ -4377,6 +4384,7 @@
 <e><p><l>stick<s n="vblex"/></l><r>fasi<s n="vblex"/></r></p></e>
 <e><p><l>stick<s n="vblex"/></l><r>sutu<s n="vblex"/></r></p></e>
 <e><p><l>stick<s n="vblex"/></l><r>trusu<s n="vblex"/></r></p></e>
+<e><p><l>stick<s n="vblex"/></l><r>plak<s n="vblex"/></r></p></e>
 <e><p><l>sticky<s n="adj"/></l><r>nat'nati<s n="adj"/></r></p></e>
 <e><p><l>sticky<s n="adj"/></l><r>taratara<s n="adj"/></r></p></e>
 <e><p><l>stiff<s n="adj"/></l><r>steifi<s n="adj"/></r></p></e>
@@ -5052,6 +5060,7 @@
 <e><p><l>whenever<s n="cnjcoo"/></l><r>iniwan ten<s n="cnjcoo"/></r></p></e>
 <e><p><l>whenever<s n="cnjcoo"/></l><r>oten<s n="cnjcoo"/></r></p></e>
 <e><p><l>whenever<s n="cnjcoo"/></l><r>solanga<s n="cnjcoo"/></r></p></e>
+<e><p><l>where<s n="adv"/><s n="itg"/></l><r>pe<s n="adv"/><s n="itg"/></r></p></e>
 <e><p><l>while<s n="adv"/><s n="itg"/></l><r>di<s n="cnjcoo"/></r></p></e>
 <e><p><l>whine<s n="vblex"/></l><r>stowtu<s n="vblex"/></r></p></e>
 <e><p><l>whip<s n="n"/></l><r>krawasi<s n="n"/></r></p></e>

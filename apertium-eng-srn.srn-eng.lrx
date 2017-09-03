@@ -81,6 +81,9 @@
     <match lemma="fa">
       <select lemma="because"/>
     </match>
+    <match lemma="doro">
+      <select lemma="arrive"/>
+    </match>
   </rule>
 </rules>
 
