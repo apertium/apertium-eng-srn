@@ -1,0 +1,8 @@
+[H5LB0iTfeEql#0] ^Dan/dan<n>/dan<cnjcoo>$ ^mi/prpers<prn><subj><p1><sg>/prpers<prn><obj><p1><sg>/prpers<det><pos><p1><sg>$ ^yere/yere<vblex>$: ^BAM/*BAM$! ^A/a<det><sg>/prpers<prn><subj><p3><sg>$ ^koba/koba<n>$ ^fadon/fadon<vblex>$ ^tapu/tapu<n>/tapu<vblex>/tapu<pr>/tapu<adj>$ ^a/a<det><sg>/prpers<prn><subj><p3><sg>$ ^patu/patu<n>$ ^nanga/nanga<pr>/nanga<cnjcoo>$ ^okro/okro<n>$.
+[/H5LB0iTfeEql]
+[NPK2zfkVJx5L#0] ^Mi/prpers<prn><subj><p1><sg>/prpers<prn><obj><p1><sg>/prpers<det><pos><p1><sg>$ ^dyompo/dyompo<vblex>/dyompo<adj>$ ^opo/opo<vblex>/opo<adv>/opo<adj>$.^Mi/prpers<prn><subj><p1><sg>/prpers<prn><obj><p1><sg>/prpers<det><pos><p1><sg>$ ^bari/bari<n>/bari<vblex>$! ^Mi/prpers<prn><subj><p1><sg>/prpers<prn><obj><p1><sg>/prpers<det><pos><p1><sg>$ ^bari/bari<n>/bari<vblex>$!
+[/NPK2zfkVJx5L]
+[RRDE3ftWyiZz#0] ^Dan/dan<n>/dan<cnjcoo>$ ^a/a<det><sg>/prpers<prn><subj><p3><sg>$ ^patu/patu<n>$ ^kanti/kanti<n>/kanti<vblex>$ ^fadon/fadon<vblex>$ ^tapu/tapu<n>/tapu<vblex>/tapu<pr>/tapu<adj>$ ^mi/prpers<prn><subj><p1><sg>/prpers<prn><obj><p1><sg>/prpers<det><pos><p1><sg>$ ^bakasei/bakasei<n>/bakasei<adj>$.
+[/RRDE3ftWyiZz]
+[nF_Nlf_7uGb4#0] ^Dan/dan<n>/dan<cnjcoo>$ ^fa/fa<adv>/fa<cnjsub>$ ^den/a<det><pl>/prpers<prn><subj><p3><pl>/prpers<prn><obj><p3><pl>$ ^ben/ben<aux>$ ^wakawaka/wakawaka<vblex>/wakawaka<adj>$ ^ini/ini<n>/ini<pr>$ ^a/a<det><sg>/prpers<prn><subj><p3><sg>$ ^oso/oso<n>$ ^a/a<det><sg>/prpers<prn><subj><p3><sg>$ ^ijskasi/ijskasi<n>$ ^bigin/bigin<n>/bigin<vblex>$ ^degedege/degedege<vblex>$.
+[/nF_Nlf_7uGb4]

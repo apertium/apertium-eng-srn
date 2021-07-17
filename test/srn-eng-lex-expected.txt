@@ -1,0 +1,8 @@
+[H5LB0iTfeEql#0] ^Dan<cnjcoo>/Then<adv>$ ^prpers<prn><subj><p1><sg>/prpers<prn><subj><p1><mf><sg>$ ^yere<vblex>/hear<vblex>/listen<vblex>/grant (a wish)<vblex>$: ^*BAM/*BAM$! ^A<det><sg>/The<det><def><sg>$ ^koba<n>/bowl<n>/basin<n>$ ^fadon<vblex>/fall<vblex>/spill<vblex>$ ^tapu<pr>/on<pr>/above<pr>$ ^a<det><sg>/the<det><def><sg>$ ^patu<n>/pot<n>/muffler<n>$ ^nanga<pr>/with<pr>/against<pr>$ ^okro<n>/okra<n>$.
+[/H5LB0iTfeEql]
+[NPK2zfkVJx5L#0] ^Prpers<prn><subj><p1><sg>/Prpers<prn><subj><p1><mf><sg>$ ^dyompo<vblex>/jump<vblex>$ ^opo<adv>/up<adv>$.^Prpers<prn><subj><p1><sg>/Prpers<prn><subj><p1><mf><sg>$ ^bari<vblex>/shout<vblex>/moo (of a cow)<vblex>/neigh (of a horse)<vblex>$! ^Prpers<prn><subj><p1><sg>/Prpers<prn><subj><p1><mf><sg>$ ^bari<vblex>/shout<vblex>/moo (of a cow)<vblex>/neigh (of a horse)<vblex>$!
+[/NPK2zfkVJx5L]
+[RRDE3ftWyiZz#0] ^Dan<cnjcoo>/Then<adv>$ ^a<det><sg>/the<det><def><sg>$ ^patu<n>/pot<n>/muffler<n>$ ^kanti<n>/edge<n>/side<n>$ ^fadon<vblex>/fall<vblex>/spill<vblex>$ ^tapu<pr>/on<pr>/above<pr>$ ^prpers<det><pos><p1><sg>/prpers<det><pos><p1><mf><sg>$ ^bakasei<n>/buttocks<n>$.
+[/RRDE3ftWyiZz]
+[nF_Nlf_7uGb4#0] ^Dan<cnjcoo>/Then<adv>$ ^fa<cnjsub>/because<cnjsub>$ ^prpers<prn><subj><p3><pl>/prpers<prn><subj><p3><mf><pl>$ ^ben<aux>/past tense marker<aux>$ ^wakawaka<vblex>/wander<vblex>/womanize<vblex>$ ^ini<n>/inside<n>$ ^a<det><sg>/the<det><def><sg>$ ^oso<n>/house<n>/family<n>/household<n>$ ^a<det><sg>/the<det><def><sg>$ ^ijskasi<n>/refrigerator<n>$ ^bigin<vblex>/begin<vblex>/start<vblex>$ ^degedege<vblex>/wobble<vblex>$.
+[/nF_Nlf_7uGb4]

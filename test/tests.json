@@ -1,0 +1,6 @@
+{
+    "srn-eng": {
+        "input": "srn-eng-input.txt",
+        "mode": "srn-eng"
+    }
+}

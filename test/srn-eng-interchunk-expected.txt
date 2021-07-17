@@ -1,0 +1,8 @@
+[H5LB0iTfeEql#0] ^default<default>{^Then<adv>$}$ ^n<SN><p1><sg>{^prpers<prn><subj><p1><mf><sg>$}$ ^n<SV><pres>{^hear<vblex><pres><3><4>$}$: ^unknown<unknown>{^*BAM$}$! ^n<SN><p3><sg>{^The<det><def><sg>$ ^bowl<n><sg>$}$ ^n<SV><pres><p3><sg>{^fall<vblex><pres><3><4>$}$ ^default<default>{^on<pr>$}$ ^n<SN><p3><sg>{^the<det><def><sg>$ ^pot<n><sg>$}$ ^default<default>{^with<pr>$}$ ^n<SN><p3><sg>{^okra<n><sg>$}$.
+[/H5LB0iTfeEql]
+[NPK2zfkVJx5L#0] ^n<SN><p1><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^n<SV><pres>{^jump<vblex><pres><3><4>$}$ ^adv<SAdv>{^up<adv>$}$.^n<SN><p1><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^n<SV><pres>{^shout<vblex><pres><3><4>$}$! ^n<SN><p1><sg>{^Prpers<prn><subj><p1><mf><sg>$}$ ^n<SV><pres>{^shout<vblex><pres><3><4>$}$!
+[/NPK2zfkVJx5L]
+[RRDE3ftWyiZz#0] ^default<default>{^Then<adv>$}$ ^n<SN><p3><sg>{^the<det><def><sg>$ ^pot<n><sg>$}$ ^n<SN><p3><sg>{^edge<n><sg>$}$ ^n<SV><pres><p3><sg>{^fall<vblex><pres><3><4>$}$ ^default<default>{^on<pr>$}$ ^n<SN><p3><sg>{^prpers<det><pos><p1><mf><sg>$ ^buttocks<n><sg>$}$.
+[/RRDE3ftWyiZz]
+[nF_Nlf_7uGb4#0] ^default<default>{^Then<adv>$}$ ^default<default>{^because<cnjsub>$}$ ^n<SN><p3><pl>{^prpers<prn><subj><p3><mf><pl>$}$ ^aux.verb<SV><past>{^wander<vblex><past><3><4>$}$ ^n<SN><p3><sg>{^inside<n><sg>$}$ ^n<SN><p3><sg>{^the<det><def><sg>$ ^house<n><sg>$}$ ^n<SN><p3><sg>{^the<det><def><sg>$ ^refrigerator<n><sg>$}$ ^verb.verb<SV><pres><p3><sg>{^begin<vblex><pres><3><4>$ ^wobble<vblex><subs>$}$.
+[/nF_Nlf_7uGb4]

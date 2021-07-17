@@ -1,0 +1,8 @@
+[H5LB0iTfeEql#0] ^Dan<cnjcoo>$ ^prpers<prn><subj><p1><sg>$ ^yere<vblex>$: ^*BAM$! ^A<det><sg>$ ^koba<n>$ ^fadon<vblex>$ ^tapu<pr>$ ^a<det><sg>$ ^patu<n>$ ^nanga<pr>$ ^okro<n>$.
+[/H5LB0iTfeEql]
+[NPK2zfkVJx5L#0] ^Prpers<prn><subj><p1><sg>$ ^dyompo<vblex>$ ^opo<adv>$.^Prpers<prn><subj><p1><sg>$ ^bari<vblex>$! ^Prpers<prn><subj><p1><sg>$ ^bari<vblex>$!
+[/NPK2zfkVJx5L]
+[RRDE3ftWyiZz#0] ^Dan<cnjcoo>$ ^a<det><sg>$ ^patu<n>$ ^kanti<n>$ ^fadon<vblex>$ ^tapu<pr>$ ^prpers<det><pos><p1><sg>$ ^bakasei<n>$.
+[/RRDE3ftWyiZz]
+[nF_Nlf_7uGb4#0] ^Dan<cnjcoo>$ ^fa<cnjsub>$ ^prpers<prn><subj><p3><pl>$ ^ben<aux>$ ^wakawaka<vblex>$ ^ini<n>$ ^a<det><sg>$ ^oso<n>$ ^a<det><sg>$ ^ijskasi<n>$ ^bigin<vblex>$ ^degedege<vblex>$.
+[/nF_Nlf_7uGb4]

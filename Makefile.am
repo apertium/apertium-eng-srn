@@ -201,11 +201,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . eng-srn | tee .test-mt
-	@echo "house" > .test-ref
-	@diff .test-ref .test-mt
-	echo "house" | apertium -d . srn-eng | tee .test-mt
-	@echo "house" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
-
+	apertium-regtest test

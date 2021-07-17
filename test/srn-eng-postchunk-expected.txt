@@ -1,0 +1,8 @@
+[H5LB0iTfeEql#0] ^Then<adv>$ ^prpers<prn><subj><p1><mf><sg>$ ^hear<vblex><pres>$: ^*BAM$! ^The<det><def><sg>$ ^bowl<n><sg>$ ^fall<vblex><pres><p3><sg>$ ^on<pr>$ ^the<det><def><sg>$ ^pot<n><sg>$ ^with<pr>$ ^okra<n><sg>$.
+[/H5LB0iTfeEql]
+[NPK2zfkVJx5L#0] ^Prpers<prn><subj><p1><mf><sg>$ ^jump<vblex><pres>$ ^up<adv>$.^Prpers<prn><subj><p1><mf><sg>$ ^shout<vblex><pres>$! ^Prpers<prn><subj><p1><mf><sg>$ ^shout<vblex><pres>$!
+[/NPK2zfkVJx5L]
+[RRDE3ftWyiZz#0] ^Then<adv>$ ^the<det><def><sg>$ ^pot<n><sg>$ ^edge<n><sg>$ ^fall<vblex><pres><p3><sg>$ ^on<pr>$ ^prpers<det><pos><p1><mf><sg>$ ^buttocks<n><sg>$.
+[/RRDE3ftWyiZz]
+[nF_Nlf_7uGb4#0] ^Then<adv>$ ^because<cnjsub>$ ^prpers<prn><subj><p3><mf><pl>$ ^wander<vblex><past>$ ^inside<n><sg>$ ^the<det><def><sg>$ ^house<n><sg>$ ^the<det><def><sg>$ ^refrigerator<n><sg>$ ^begin<vblex><pres><p3><sg>$ ^wobble<vblex><subs>$.
+[/nF_Nlf_7uGb4]
